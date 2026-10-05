@@ -35,7 +35,7 @@ function listTaker(list){ ///<- list === an array
     return list[Math.floor(Math.random() * list.length)] /// <- randomize a number out of this jawn
 
 }
- // learning to make counts cunt how many times a,b,c show up and retutn the highest count wins
+ // learning to make counts count how many times a,b,c show up and retutn the highest count wins
 
  function mostPicked(answered){ //<- only gives us ONE letter the winner
     const counts = {

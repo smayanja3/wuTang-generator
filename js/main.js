@@ -6,10 +6,12 @@ document.querySelector('#generate').addEventListener('click',wuTang)
 
 function wuTang(){
     const questions = ['q1','q2','q3','q4','q5']
+    console.log(questions)
     const answers = questions.map(function(question){
         const picked = document.querySelector(`input[name="${question}"]:checked`) //<- instead of using the index we are using the name will only grabbed the ones that are checked(becasue we are using radio)
         return picked ? picked.value : '' //<- the spots stays empty for an unchecked question and does not give us false information
     })
+    console.log
     if(answers.includes('')){
         document.querySelector('#result').innerText = 'Protect your NECK'
         return
