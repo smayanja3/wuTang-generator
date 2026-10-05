@@ -1,22 +1,67 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# 🎤 Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+An interactive **Wu-Tang Clan name generator** that asks you a few survey questions and creates a Wu-Tang-sounding name just for **YOU**. 🥷
 
-### How to submit your code for review:
+## 📸 Project Preview
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+<!-- Add your screenshot below -->
+![Project Screenshot](wutang.png)
 
-Example:
+Users answer **5 survey questions**, and based on their answers the app randomly generates a Wu-Tang-style name.
+
+## ✨ Features
+
+- 📝 Answer 5 survey questions
+- 🎲 Randomly generate a Wu-Tang-sounding name
+- 🥷 Get a different name based on your answers
+- ⚡ Dynamically display the result on the page
+- 🖥️ Includes a Node.js server
+- 📱 Simple and user-friendly interface
+
+## 🛠️ Built With
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+
+## 💡 What I Learned
+
+This project gave me more practice turning user input into dynamic results on a webpage.
+
+I also gained more experience working with:
+ 
+- DOM manipulation
+- Arrays and objects
+- Randomization with `Math.random()`
+- Conditional logic
+- Building a basic Node.js server
+- Organizing HTML, CSS, and JavaScript files
+
+One of the biggest takeaways was learning how to combine **user answers with randomization** to create a unique result each time.
+
+## 🚀 Running the Project
+
+To run this project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/smayanja3/wuTang-generator.git
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+
+2. Navigate into the project folder.
+
+3. Start the server:
+
+```bash
+node server.js
 ```
+
+4. Open the local address shown in your terminal in your browser.
+
+5. Answer the questions and get your Wu-Tang name! 🎤
+
+---
+
+Thanks for checking out my project! 🎤🥷✨
