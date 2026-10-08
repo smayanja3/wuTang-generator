@@ -1,89 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Wu-Tang Name Generator</title>
 </head>
 
 <body>
-    <h1>Wu-Tang Name Generator</h1>
-    <p>Answer 5 questions to get a name!!!</p>
+    <div id="container">
+        <h1>Wu-Tang Name Generator</h1>
+        <div id="questions">
+            <p>Whats more important to you?</p>
+            <label>
+                <input class="choices" type="radio" name="q1" value="a">
+                Friends
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q1" value="b">
+                Family
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q1" value="c">
+                Money
+            </label>
 
-    <p>Whats more important to you?</p>
-    <label>
-        <input class="choices" type="radio" name="q1" value="a">
-        Friends
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q1" value="b">
-        Family
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q1" value="c">
-        Money
-    </label>
+            <p>Whats your favorite color?</p>
+            <label>
+                <input class="choices" type="radio" name="q2" value="a">
+                Sage Green
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q2" value="b">
+                Butter Yellow
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q2" value="c">
+                Dusty Blue
+            </label>
 
-    <p>Whats your favorite color?</p>
-    <label>
-        <input class="choices" type="radio" name="q2" value="a">
-        Sage Green
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q2" value="b">
-        Butter Yellow
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q2" value="c">
-        Dusty Blue
-    </label>
+            <p>Whats your favorite movie genre?</p>
+            <label>
+                <input class="choices" type="radio" name="q3" value="a">
+                Action
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q3" value="b">
+                Horror
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q3" value="c">
+                Sci-Fi
+            </label>
 
-    <p>Whats your favorite movie genre?</p>
-    <label>
-        <input class="choices" type="radio" name="q3" value="a">
-        Action
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q3" value="b">
-        Horror
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q3" value="c">
-        Sci-Fi
-    </label>
+            <p>Favorite social media platform?</p>
+            <label>
+                <input class="choices" type="radio" name="q4" value="a">
+                Instagram
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q4" value="b">
+                Twitter
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q4" value="c">
+                TikTok
+            </label>
 
-    <p>Favorite social media platform?</p>
-    <label>
-        <input class="choices" type="radio" name="q4" value="a">
-        Instagram
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q4" value="b">
-        Twitter
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q4" value="c">
-        TikTok
-    </label>
+            <p>Which rapper would like to collab with?</p>
+            <label>
+                <input class="choices" type="radio" name="q5" value="a">
+                Eminem
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q5" value="b">
+                Kendrick
+            </label>
+            <label>
+                <input class="choices" type="radio" name="q5" value="c">
+                J.Cole
+            </label>
+        </div>
 
-    <p>Which rapper would like to collab with?</p>
-    <label>
-        <input class="choices" type="radio" name="q5" value="a">
-        Eminem
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q5" value="b">
-        Kendrick
-    </label>
-    <label>
-        <input class="choices" type="radio" name="q5" value="c">
-        J.Cole
-    </label>
-
-    <button id="generate">Enter</button>
-    <h3 id="result"></h3>
+        <button id="generate">Enter</button>
+        <h3 id="result"></h3>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
